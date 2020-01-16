@@ -22,12 +22,4 @@ public class PlayerMovment : MonoBehaviour
             rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0);
         }
     }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.collider.CompareTag("Obsticle"))
-        {
-            Debug.Log(collision.collider.name);
-        }
-    }
 }
