@@ -9,7 +9,7 @@ public class PlayerMovment : MonoBehaviour
     public float sidewaysForce = 200f;
     void Start()
     {
-        Debug.Log("Start");
+        UnityEngine.Debug.Log("Start");
     }
 
     void FixedUpdate()
