@@ -11,8 +11,8 @@ public class ExitPanel : MonoBehaviour
 
 	void Start()
 	{
-		yourButton.GetComponent<Button>();
-		yourButton.onClick.AddListener(TaskOnClick);
+		Button btn = yourButton.GetComponent<Button>();
+		btn.onClick.AddListener(TaskOnClick);
 	}
 
 	void TaskOnClick()
